@@ -1,7 +1,7 @@
 # SparkFun MP3 with light Sensor |  Livro Sonóro 
 
 Este projeto faz parte da  construção de uma obra de arte sonora desenvolvida por mim e idealizada por Floriano Romano. Por isso adicionei o máximo de comentários no código para que o mesmo pode-se entender o que acontecia e lembrar-se para poder explicar suas particularidades. 
-a ideia é esconder o LDR entre as páginas do livro para quando uma pessoa abrir o livro ter a esperiência  de ouvir um som ao passar das páginas. 
+a ideia é esconder o LDR entre as páginas do livro para quando uma pessoa abrir o livro ter a esperiência  de ouvir um som ao passar das páginas. Tendo assim duas verções uma com apenas uma página e outra com diversas páginas. Lembrece de levar em concideração a gramatura do papel e a quantidade de luz no ambiente. 
 
 > Desenvolvedor: **Fábio R. Nóbrega**
 > 
@@ -14,7 +14,7 @@ a ideia é esconder o LDR entre as páginas do livro para quando uma pessoa abri
 + Um LED ( para debug) 
 + Arduino Uno 
 + 1 LDR 5mm Fotoresistor P/ Pic Arduino Sensor De Luz
-+ Adicionar biblioteca MP3.h no seu Arduino qualquer dúvida siga a [documentação oficial do arduino](https://www.arduino.cc/en/guide/libraries#) 
++ Adicionar biblioteca FEMP3Shield.h e SdFat.h no seu Arduino que estão nesse repositório qualquer dúvida siga a [documentação oficial do arduino](https://www.arduino.cc/en/guide/libraries#) 
 
 #### Setup 
 
